@@ -1,4 +1,16 @@
 .sidebar {
     height: 100%;
     width: calc(1170px * 0.25 - 30px);
+    background: #515151;
+    color: #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+  color: #afd0c9;
+}
+
+h2 {
+  color: #fefefe;
 }
