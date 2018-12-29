@@ -47,6 +47,10 @@ h5 {
   font-style: italic;
 }
 
+.container {
+  background: #ffffff;
+}
+
 .sidebar {
   height: 100%;
   width: calc(1170px * 0.25 - 30px);
@@ -79,7 +83,7 @@ h5 {
 
 footer {
   bottom: 0;
-  width: calc(1170px * 0.75);
+  width: calc(1170px * 0.75 + 15px);
   padding: 0 15px;
   background: #f7f4ef;
   margin-left: -30px;
