@@ -47,6 +47,16 @@ h5 {
   font-style: italic;
 }
 
+.affix {
+  position: static;
+}
+
+@media (min-width: 768px) {
+  .affix {
+    position: fixed;
+  }
+}
+
 .container {
   background: #ffffff;
 }
