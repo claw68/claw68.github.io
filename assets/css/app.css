@@ -7,10 +7,18 @@
     text-align: center;
 }
 
-h1 {
+.sidebar img {
+  border-radius: 49.9%;
+  border: 2px solid #fff;
+  box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, .15), 0 1.5px 3px 0 rgba(0, 0, 0, .15);
+  width: 75%;
+  margin: 0 auto;
+}
+
+.sidebar h1 {
   color: #afd0c9;
 }
 
-h2 {
+.sidebar h2 {
   color: #fefefe;
 }
