@@ -4,6 +4,13 @@
        url('../fonts/work-sans.regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/work-sans.light.otf') format('opentype'),
+       url('../fonts/work-sans.light.ttf') format('truetype');
+  font-weight: 300;
+}
+
 .sidebar {
   height: 100%;
   width: calc(1170px * 0.25 - 30px);
