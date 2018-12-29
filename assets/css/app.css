@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/work-sans.regular.otf') format('opentype'),
+       url('../fonts/work-sans.regular.ttf') format('truetype');
+}
+
 .sidebar {
   height: 100%;
   width: calc(1170px * 0.25 - 30px);
