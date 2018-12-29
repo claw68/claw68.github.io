@@ -51,6 +51,10 @@
   color: #fefefe;
 }
 
+.content {
+  padding-bottom: 143px;
+}
+
 footer {
   bottom: 0;
   width: calc(1170px * 0.75);
