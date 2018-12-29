@@ -20,8 +20,26 @@
 
 @font-face {
   font-family: 'Work Sans';
-  src: url('../fonts/work-sans.light.otf') format('opentype'),
-       url('../fonts/work-sans.light.ttf') format('truetype');
+  src: url('../fonts/work-sans.light-italic.otf') format('opentype'),
+       url('../fonts/work-sans.light-italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Work Sans';
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2, h3 {
+  font-weight: normal;
+}
+
+h5 {
   font-weight: 300;
   font-style: italic;
 }
