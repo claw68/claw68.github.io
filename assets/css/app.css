@@ -29,6 +29,9 @@
 body {
   font-family: 'Work Sans';
   font-weight: 300;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-color: #fafafa;
 }
 
 h1 {
