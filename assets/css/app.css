@@ -109,6 +109,10 @@ h5 {
   margin: 10px 0px;
 }
 
+.content h4 {
+  margin-top: 20px;
+}
+
 footer {
   bottom: 0;
   width: calc(1170px * 0.75);
