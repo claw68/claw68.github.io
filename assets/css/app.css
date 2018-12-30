@@ -130,8 +130,14 @@ h5 {
 }
 
 .content {
-  padding-top: 30px;
-  padding-bottom: 160px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding-top: 30px;
+    padding-bottom: 160px;
+  }
 }
 
 .content h2 .glyphicon {
