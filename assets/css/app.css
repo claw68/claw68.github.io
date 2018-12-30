@@ -156,10 +156,27 @@ h5 {
 
 footer {
   bottom: 0;
-  width: calc(1170px * 0.75);
   padding: 0 15px;
   background: #f7f4ef;
-  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    width: calc(750px * 0.75);
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    width: calc(970px * 0.75);
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    width: calc(1170px * 0.75);
+  }
 }
 
 footer h2 {
