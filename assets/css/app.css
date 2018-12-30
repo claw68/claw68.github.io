@@ -217,6 +217,48 @@ h5 {
   margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+  .content .company h3, .content .company h4, .content .company h5 {
+    margin: 8px 0px;
+  }
+
+  .content .company h4 {
+    margin-top: 14px;
+  }
+
+  .content .company h5 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .content .company h3, .content .company h4, .content .company h5 {
+    margin: 9px 0px;
+  }
+
+  .content .company h4 {
+    margin-top: 12px;
+  }
+
+  .content .company h5 {
+    margin-bottom: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content .company h3, .content .company h4, .content .company h5 {
+    margin: 10px 0px;
+  }
+
+  .content .company h4 {
+    margin-top: 20px;
+  }
+
+  .content .company h5 {
+    margin-bottom: 10px;
+  }
+}
+
 .content .education {
   padding-bottom: 10px;
 }
