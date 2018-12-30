@@ -191,7 +191,7 @@ footer [class*=" devicon-"], footer [class^=devicon-] {
 
 footer .progress {
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   border-radius: 0px;
   height: 10px;
   background: #c4c4c4;
