@@ -115,6 +115,18 @@ h5 {
   padding-bottom: 160px;
 }
 
+.content ul li ul {
+  padding-bottom: 5px;
+}
+
+.content ul li:last-child ul {
+  padding-bottom: 0px;
+}
+
+.content ul li ul li {
+  font-style: italic;
+}
+
 .content .company h3 {
   margin: 10px 0px;
 }
