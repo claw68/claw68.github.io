@@ -53,8 +53,10 @@ h5 {
   font-style: italic;
 }
 
-.no-pad-left {
-  padding-left: 0px;
+@media (min-width: 768px) {
+  .no-pad-left {
+    padding-left: 0px;
+  }
 }
 
 .text-italic {
