@@ -164,6 +164,10 @@ h5 {
   margin-top: 20px;
 }
 
+.content .education {
+  padding-bottom: 20px;
+}
+
 footer {
   background: #f7f4ef;
   margin: 0 -15px;
