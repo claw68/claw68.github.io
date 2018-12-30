@@ -138,7 +138,6 @@ h5 {
 @media (min-width: 768px) {
   .content {
     padding-top: 30px;
-    padding-bottom: 160px;
   }
 }
 
@@ -177,32 +176,13 @@ h5 {
 }
 
 .content .education {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 footer {
   background: #f7f4ef;
   margin: 0 -15px;
   padding: 15px;
-}
-
-@media (min-width: 768px) {
-  footer {
-    bottom: 0;
-    width: calc(750px * 0.75);
-  }
-}
-
-@media (min-width: 992px) {
-  footer {
-    width: calc(970px * 0.75);
-  }
-}
-
-@media (min-width: 1200px) {
-  footer {
-    width: calc(1170px * 0.75);
-  }
 }
 
 footer h2 {
