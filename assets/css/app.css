@@ -81,14 +81,16 @@ h5 {
   height: 100%;
   background: #515151;
   color: #c4c4c4;
-  padding: 15px;
+  padding: 15px 15px 40px;
   text-align: center;
+  margin: 0 -15px;
 }
 
 @media (min-width: 768px) {
   .sidebar {
     width: calc(750px * 0.25);
     margin-left: -15px;
+    padding: 15px;
   }
 }
 
