@@ -31,7 +31,9 @@ body {
   font-weight: 300;
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
-  background-color: #fafafa;
+  background-size: 18px;
+  background-color: #f7f4ef;
+  color: #0d1321;
 }
 
 h1 {
@@ -81,7 +83,7 @@ h5 {
   height: 100%;
   width: calc(1170px * 0.25);
   background: #515151;
-  color: #e5e5e5;
+  color: #c4c4c4;
   padding: 15px;
   text-align: center;
   margin-left: -15px;
@@ -103,11 +105,11 @@ h5 {
 }
 
 .sidebar h1 {
-  color: #afd0c9;
+  color: #bcd8c1;
 }
 
 .sidebar h2 {
-  color: #fefefe;
+  color: #f7f4ef;
 }
 
 .content {
