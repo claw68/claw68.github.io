@@ -185,13 +185,21 @@ footer {
   padding: 15px;
 }
 
+footer hr {
+  border-top: 1px solid #c4c4c4;
+}
+
+footer h2 {
+  margin-top: 5px;
+}
+
 footer [class*=" devicon-"], footer [class^=devicon-] {
   font-size: 40px;
 }
 
 footer .progress {
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   border-radius: 0px;
   height: 10px;
   background: #c4c4c4;
@@ -199,8 +207,4 @@ footer .progress {
 
 footer .progress-bar {
   background: #515151;
-}
-
-footer h2 {
-  margin: 5px 0;
 }
