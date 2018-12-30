@@ -77,12 +77,29 @@ h5 {
 
 .sidebar {
   height: 100%;
-  width: calc(1170px * 0.25);
   background: #515151;
   color: #c4c4c4;
   padding: 15px;
   text-align: center;
-  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: calc(750px * 0.25);
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    width: calc(970px * 0.25);
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: calc(1170px * 0.25);
+  }
 }
 
 .sidebar img {
