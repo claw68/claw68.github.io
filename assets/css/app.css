@@ -112,7 +112,7 @@ h5 {
   box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, .15), 0 1.5px 3px 0 rgba(0, 0, 0, .15);
   width: 80%;
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 250px;
 }
 
 .content img.img-responsive {
@@ -120,7 +120,7 @@ h5 {
   box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, .15), 0 1.5px 3px 0 rgba(0, 0, 0, .15);
   margin: 5px auto;
   width: 96%;
-  max-width: 200px;
+  max-width: 180px;
 }
 
 .sidebar h1 {
