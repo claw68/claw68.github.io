@@ -55,6 +55,10 @@ h5 {
   font-style: italic;
 }
 
+.no-pad-left {
+  padding-left: 0px;
+}
+
 .affix {
   position: static;
 }
