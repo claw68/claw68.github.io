@@ -281,6 +281,47 @@ footer [class*=" devicon-"], footer [class^=devicon-] {
   font-size: 40px;
 }
 
+.devicon-sklearn-plain-original .path1:before {
+  content: "\e958";
+  color: #f89939;
+}
+
+.devicon-sklearn-plain-original .path2:before {
+  content: "\e959";
+  color: #3499cd;
+  margin-left: -1em;
+}
+
+.devicon-sklearn-plain-original .path3:before {
+  content: "\e95a";
+  color: #010101;
+  margin-left: -1em;
+}
+
+.devicon-sklearn-plain-original .path4:before {
+  content: "\e95b";
+  color: #010101;
+  margin-left: -1em;
+}
+
+.devicon-sklearn-plain-original .path5:before {
+  content: "\e95c";
+  color: #010101;
+  margin-left: -1em;
+}
+
+.devicon-sklearn-plain-original .path6:before {
+  content: "\e95d";
+  color: #010101;
+  margin-left: -1em;
+}
+
+.devicon-sklearn-plain-original .path7:before {
+  content: "\e95e";
+  color: #010101;
+  margin-left: -1em;
+}
+
 footer .progress {
   margin-top: 15px;
   margin-bottom: 27px;
