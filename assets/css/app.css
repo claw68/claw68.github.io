@@ -178,6 +178,10 @@ h5 {
   color: #f7f4ef;
 }
 
+.sidebar h2.title {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
   .sidebar .contact h2 {
     margin: 7px 0;
