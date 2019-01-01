@@ -193,6 +193,17 @@ h5 {
 
 }
 
+.sidebar .dev {
+  margin-top: 20px;
+}
+
+.sidebar .dev a {
+  color: #f7f4ef;
+  padding: 0 7px;
+  display: inline-block;
+  font-size: 27px;
+}
+
 .sidebar .social {
   margin-top: 30px;
 }
