@@ -194,7 +194,6 @@ h5 {
   .sidebar .contact p.mobile {
     padding-top: 12px;
   }
-
 }
 
 .sidebar .dev {
@@ -203,24 +202,20 @@ h5 {
 
 .sidebar .dev a {
   color: #f7f4ef;
-  padding: 0 7px;
+  padding: 0 10px 5px;
   display: inline-block;
   font-size: 27px;
 }
 
-.sidebar .social {
-  margin-top: 30px;
-}
-
 .sidebar .social a {
   color: #f7f4ef;
-  padding: 0 3px;
+  padding: 10px 5px 5px;
   display: inline-block;
   font-size: 14px;
 }
 
 .sidebar .social hr {
-  width: 105px;
+  width: 110px;
   margin: 0 auto;
   border: 1px solid #808080;
 }
