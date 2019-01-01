@@ -177,8 +177,14 @@ h5 {
   margin-top: 30px;
 }
 
-.sidebar .social a h4{
+.sidebar .social a {
   color: #f7f4ef;
+  padding: 0 7px;
+  display: inline-block;
+}
+
+a, a:focus, a:active, a:hover {
+  text-decoration: none;
 }
 
 .content {
