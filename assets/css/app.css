@@ -181,6 +181,11 @@ h5 {
   margin-bottom: 20px;
 }
 
+.sidebar .contact {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 .sidebar .contact h2 {
   margin: 7px 0;
 }
