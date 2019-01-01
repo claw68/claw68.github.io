@@ -199,8 +199,9 @@ h5 {
 
 .sidebar .social a {
   color: #f7f4ef;
-  padding: 0 7px;
+  padding: 0 3px;
   display: inline-block;
+  font-size: 14px;
 }
 
 .sidebar .social hr {
