@@ -181,18 +181,16 @@ h5 {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .sidebar .contact h2 {
-    margin: 7px 0;
-  }
+.sidebar .contact h2 {
+  margin: 7px 0;
+}
 
-  .sidebar .contact p {
-    padding-top: 2px;
-  }
+.sidebar .contact p {
+  padding-top: 2px;
+}
 
-  .sidebar .contact p.mobile {
-    padding-top: 12px;
-  }
+.sidebar .contact p.mobile {
+  padding-top: 12px;
 }
 
 .sidebar .dev {
