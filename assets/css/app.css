@@ -322,6 +322,10 @@ footer [class*=" devicon-"], footer [class^=devicon-] {
   margin-left: -1em;
 }
 
+.devicon-stackoverflow:before {
+  content: "\e95f";
+}
+
 footer .progress {
   margin-top: 15px;
   margin-bottom: 27px;
