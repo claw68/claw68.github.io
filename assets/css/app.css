@@ -174,18 +174,21 @@ h5 {
   color: #bcd8c1;
 }
 
-.sidebar h2 {
+.sidebar h2, .sidebar p {
   color: #f7f4ef;
 }
 
 @media (min-width: 768px) {
+  .sidebar .contact h2 {
+    margin: 7px 0;
+  }
 
   .sidebar .contact p {
-    padding-top: 17px;
+    padding-top: 2px;
   }
 
   .sidebar .contact p.mobile {
-    padding-top: 27px;
+    padding-top: 12px;
   }
 
 }
