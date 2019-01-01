@@ -127,7 +127,6 @@ h5 {
 .sidebar {
   height: 100%;
   background: #515151;
-  color: #c4c4c4;
   padding: 15px 15px 25px;
   text-align: center;
   margin: 0 -15px;
@@ -209,13 +208,13 @@ h5 {
 
 .sidebar .social a {
   color: #f7f4ef;
-  padding: 10px 5px 5px;
+  padding: 10px 7px 5px;
   display: inline-block;
   font-size: 14px;
 }
 
 .sidebar .social hr {
-  width: 110px;
+  width: 140px;
   margin: 0 auto;
   border: 1px solid #808080;
 }
