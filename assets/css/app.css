@@ -182,7 +182,7 @@ h5 {
 }
 
 .sidebar .contact {
-  max-width: 300px;
+  max-width: calc(1170px * 0.25 - 30px);
   margin: 0 auto;
 }
 
@@ -199,14 +199,28 @@ h5 {
 }
 
 .sidebar .dev {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .sidebar .dev a {
   color: #f7f4ef;
   padding: 7px 10px 5px;
   display: inline-block;
-  font-size: 27px;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .sidebar .dev a {
+    font-size: 27px;
+    padding: 7px 4px 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar .dev a {
+    font-size: 30px;
+    padding: 7px 10px 5px;
+  }
 }
 
 .sidebar .social a {
@@ -220,6 +234,19 @@ h5 {
   width: 140px;
   margin: 0 auto;
   border: 1px solid #808080;
+}
+
+
+@media (min-width: 768px) {
+  .sidebar .social hr {
+    width: 105px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar .social hr {
+    width: 140px;
+  }
 }
 
 a, a:focus, a:active, a:hover {
