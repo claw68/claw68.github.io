@@ -198,6 +198,11 @@ h5 {
   padding-top: 12px;
 }
 
+.sidebar .contact p.mobile a {
+  color: #bcd8c1;
+  text-decoration: none;
+}
+
 .sidebar .dev {
   margin-top: 5px;
 }
