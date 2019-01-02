@@ -297,6 +297,18 @@ a, a:focus, a:active, a:hover {
   margin-top: 20px;
 }
 
+@media (min-width: 512px) {
+  .content .company.fs h4 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 512px) and (max-width: 636px) {
+  .content .company.tf h4 {
+    margin-top: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   .content .company h3, .content .company h4, .content .company h5 {
     margin: 8px 0px;
@@ -304,6 +316,10 @@ a, a:focus, a:active, a:hover {
 
   .content .company h4 {
     margin-top: 14px;
+  }
+
+  .content .company.fs h4 {
+    margin-top: 5px;
   }
 
   .content .company h5 {
@@ -320,6 +336,10 @@ a, a:focus, a:active, a:hover {
     margin-top: 12px;
   }
 
+  .content .company.fs h4 {
+    margin-top: 12px;
+  }
+
   .content .company h5 {
     margin-bottom: 13px;
   }
@@ -331,6 +351,10 @@ a, a:focus, a:active, a:hover {
   }
 
   .content .company h4 {
+    margin-top: 20px;
+  }
+
+  .content .company.fs h4 {
     margin-top: 20px;
   }
 
