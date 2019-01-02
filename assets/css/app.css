@@ -283,6 +283,12 @@ a, a:focus, a:active, a:hover {
   text-align: center;
 }
 
+@media (min-width: 512px) and (max-width: 768px) {
+  .comp-pic.col-ms-4 {
+    max-width: 155px;
+  }
+}
+
 @media (min-width: 512px) {
   .company {
     text-align: left;
