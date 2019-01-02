@@ -6629,7 +6629,7 @@ button.close {
     display: block !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 512px) and (max-width: 767px) {
   .visible-ms-block {
     display: block !important;
   }
