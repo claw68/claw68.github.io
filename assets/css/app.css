@@ -100,7 +100,7 @@ h5 {
   padding-right: 0px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 512px) {
   .no-pad-left {
     padding-left: 0px;
   }
@@ -283,7 +283,7 @@ a, a:focus, a:active, a:hover {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 512px) {
   .company {
     text-align: left;
   }
