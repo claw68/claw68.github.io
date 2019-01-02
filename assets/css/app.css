@@ -285,7 +285,7 @@ a, a:focus, a:active, a:hover {
 
 @media (min-width: 512px) and (max-width: 768px) {
   .comp-pic.col-ms-4 {
-    max-width: 155px;
+    max-width: 150px;
   }
 }
 
