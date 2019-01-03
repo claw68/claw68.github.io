@@ -48,3 +48,9 @@
     border-bottom: 2rem solid #000000;
   }
 }
+
+@media print and (max-width: 767px) {
+  .sidebar .social hr {
+    width: 470px;
+  }
+}
