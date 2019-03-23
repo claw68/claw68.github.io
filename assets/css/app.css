@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Work Sans';
-  font-display: auto;
+  font-display: swap;
   src: url('../fonts/work-sans.regular.otf') format('opentype'),
        url('../fonts/work-sans.regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Work Sans';
-  font-display: auto;
+  font-display: swap;
   src: url('../fonts/work-sans.light.otf') format('opentype'),
        url('../fonts/work-sans.light.ttf') format('truetype');
   font-weight: 300;
@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: 'Work Sans';
-  font-display: auto;
+  font-display: swap;
   src: url('../fonts/work-sans.medium.otf') format('opentype'),
        url('../fonts/work-sans.medium.ttf') format('truetype');
   font-weight: 500;
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: 'Work Sans';
-  font-display: auto;
+  font-display: swap;
   src: url('../fonts/work-sans.light-italic.otf') format('opentype'),
        url('../fonts/work-sans.light-italic.ttf') format('truetype');
   font-weight: 300;
