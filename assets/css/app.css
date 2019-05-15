@@ -99,6 +99,15 @@ h5 {
   font-style: italic;
 }
 
+h5 span {
+  font-style: normal;
+}
+
+h5 span::before {
+  content: "\00B7";
+  margin: 0 5px;
+}
+
 .no-pad {
   padding-left: 0px;
   padding-right: 0px;
