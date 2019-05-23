@@ -3,6 +3,10 @@
     position: static;
   }
 
+  .page-break {
+    page-break-before: always;
+  }
+
   .sidebar img {
     width: 300px;
   }
