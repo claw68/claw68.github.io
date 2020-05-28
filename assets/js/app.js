@@ -137,4 +137,18 @@ $(function(){
 
   });
 
+  $.each($('span.moment'), function(i, duration){
+    var start = moment($(this).siblings('.start').text(), "MMMM D, YYYY");
+
+    var end;
+    if($(this).siblings('.end').text() === 'Present') {
+      end = moment().startOf('day');
+    } else {
+      end = moment($(this).siblings('.end').text(), "MMMM D, YYYY");
+    }
+
+    var diff = moment.preciseDiff(start, end);
+    $(this).html(diff);
+  });
+
 });
