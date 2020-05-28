@@ -1,6 +1,31 @@
 $(function(){
 
-  var skills = [];
+  var skills = [
+    {
+      devicon: ['devicon-html5-plain-wordmark', 'colored'],
+      level: 100,
+    },
+    {
+      devicon: ['devicon-css3-plain-wordmark', 'colored'],
+      level: 97,
+    },
+    {
+      devicon: ['devicon-javascript-plain', 'colored'],
+      level: 91,
+    },
+    {
+      devicon: ['devicon-php-plain', 'colored'],
+      level: 93,
+    },
+    {
+      devicon: ['devicon-codeigniter-plain-wordmark', 'colored'],
+      level: 95,
+    },
+    {
+      devicon: ['devicon-mysql-plain-wordmark', 'colored'],
+      level: 87,
+    },
+  ];
 
   $.each(skills, function(i, skill) {
     var $template =
