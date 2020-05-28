@@ -405,6 +405,15 @@ a, a:focus, a:active, a:hover {
   padding-bottom: 10px;
 }
 
+#awards h3 {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#awards > h3:first-child {
+  margin-top: 0px;
+}
+
 footer {
   background: #f7f4ef;
   margin: 0 -15px;
