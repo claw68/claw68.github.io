@@ -97,13 +97,14 @@ h4 {
 h5 {
   font-weight: 300;
   font-style: italic;
+  line-height: 1.25;
 }
 
 h5 span {
   font-style: normal;
 }
 
-h5 span::before {
+h5 span.moment::before {
   content: "\00B7";
   margin: 0 5px;
 }
