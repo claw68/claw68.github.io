@@ -22,6 +22,17 @@ $(function(){
     $template.find('.progress .progress-bar-info').css('width', skill.level + '%');
 
     $('#skills').append($template);
+
+    $('#skills').append('<div class="clearfix visible-xs-block"></div>');
+
+    if((i + 1) % 2 === 0) {
+      $('#skills').append('<div class="clearfix visible-ms-block"></div>');
+    }
+
+    if((i + 1) % 3 === 0) {
+      $('#skills').append('<div class="clearfix visible-sm-block"></div>');
+    }
+
   });
 
 });
