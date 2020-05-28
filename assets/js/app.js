@@ -25,6 +25,30 @@ $(function(){
       devicon: ['devicon-mysql-plain-wordmark', 'colored'],
       level: 87,
     },
+    {
+      devicon: ['devicon-foundation-plain-wordmark', 'colored'],
+      level: 96,
+    },
+    {
+      devicon: ['devicon-bootstrap-plain-wordmark', 'colored'],
+      level: 95,
+    },
+    {
+      devicon: ['devicon-jquery-plain-wordmark', 'colored'],
+      level: 93,
+    },
+    {
+      devicon: ['devicon-git-plain-wordmark', 'colored'],
+      level: 90,
+    },
+    {
+      devicon: ['devicon-amazonwebservices-plain-wordmark', 'colored'],
+      level: 54,
+    },
+    {
+      devicon: ['devicon-linux-plain', 'colored'],
+      level: 78,
+    },
   ];
 
   $.each(skills, function(i, skill) {
