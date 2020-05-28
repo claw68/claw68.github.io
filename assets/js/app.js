@@ -49,6 +49,30 @@ $(function(){
       devicon: ['devicon-linux-plain', 'colored'],
       level: 78,
     },
+    {
+      devicon: ['devicon-rails-plain-wordmark', 'colored'],
+      level: 32,
+    },
+    {
+      devicon: ['devicon-python-plain-wordmark', 'colored'],
+      level: 34,
+    },
+    {
+      devicon: ['devicon-sklearn-plain-original'],
+      level: 37,
+    },
+    {
+      devicon: ['devicon-laravel-plain-wordmark', 'colored'],
+      level: 85,
+    },
+    {
+      devicon: ['devicon-sass-original', 'colored'],
+      level: 97,
+    },
+    {
+      devicon: ['devicon-apache-plain-wordmark', 'colored'],
+      level: 90,
+    },
   ];
 
   $.each(skills, function(i, skill) {
@@ -64,6 +88,11 @@ $(function(){
       '</div>');
 
     $.each(skill.devicon, function(ii, icon){
+
+      if(icon === "devicon-sklearn-plain-original") {
+        $template.find('.devicon').html('<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>');
+      }
+
       $template.find('.devicon').addClass(icon);
     });
 
