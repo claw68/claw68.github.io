@@ -7,47 +7,83 @@ $(function(){
     },
     {
       devicon: ['devicon-css3-plain-wordmark', 'colored'],
-      level: 97,
+      level: 99,
     },
     {
       devicon: ['devicon-javascript-plain', 'colored'],
-      level: 91,
+      level: 98,
     },
     {
       devicon: ['devicon-php-plain', 'colored'],
-      level: 93,
+      level: 96,
     },
     {
-      devicon: ['devicon-codeigniter-plain-wordmark', 'colored'],
-      level: 95,
+      devicon: ['devicon-apache-plain-wordmark', 'colored'],
+      level: 97,
     },
     {
       devicon: ['devicon-mysql-plain-wordmark', 'colored'],
-      level: 87,
+      level: 96,
+    },
+    {
+      devicon: ['devicon-laravel-plain-wordmark', 'colored'],
+      level: 93,
+    },
+    {
+      devicon: ['devicon-webpack-plain-wordmark', 'colored'],
+      level: 75,
+    },
+    {
+      devicon: ['devicon-bootstrap-plain-wordmark', 'colored'],
+      level: 98,
+    },
+    {
+      devicon: ['devicon-codeigniter-plain-wordmark', 'colored'],
+      level: 97,
+    },
+    {
+      devicon: ['devicon-sass-original', 'colored'],
+      level: 98,
     },
     {
       devicon: ['devicon-foundation-plain-wordmark', 'colored'],
       level: 96,
     },
     {
-      devicon: ['devicon-bootstrap-plain-wordmark', 'colored'],
-      level: 95,
+      devicon: ['devicon-jquery-plain-wordmark', 'colored'],
+      level: 97,
     },
     {
-      devicon: ['devicon-jquery-plain-wordmark', 'colored'],
-      level: 93,
+      devicon: ['devicon-angularjs-plain-wordmark', 'colored'],
+      level: 50,
+    },
+    {
+      devicon: ['devicon-react-original-wordmark', 'colored'],
+      level: 50,
     },
     {
       devicon: ['devicon-git-plain-wordmark', 'colored'],
-      level: 90,
+      level: 97,
+    },
+    {
+      devicon: ['devicon-gitlab-plain-wordmark', 'colored'],
+      level: 85,
+    },
+    {
+      devicon: ['devicon-docker-plain-wordmark', 'colored'],
+      level: 70,
     },
     {
       devicon: ['devicon-amazonwebservices-plain-wordmark', 'colored'],
-      level: 54,
+      level: 75,
     },
     {
       devicon: ['devicon-linux-plain', 'colored'],
-      level: 78,
+      level: 94,
+    },
+    {
+      devicon: ['devicon-ssh-plain-wordmark', 'colored'],
+      level: 97,
     },
     {
       devicon: ['devicon-rails-plain-wordmark', 'colored'],
@@ -60,42 +96,6 @@ $(function(){
     {
       devicon: ['devicon-sklearn-plain-original'],
       level: 37,
-    },
-    {
-      devicon: ['devicon-laravel-plain-wordmark', 'colored'],
-      level: 85,
-    },
-    {
-      devicon: ['devicon-sass-original', 'colored'],
-      level: 97,
-    },
-    {
-      devicon: ['devicon-apache-plain-wordmark', 'colored'],
-      level: 90,
-    },
-    {
-      devicon: ['devicon-react-original-wordmark', 'colored'],
-      level: 50,
-    },
-    {
-      devicon: ['devicon-angularjs-plain-wordmark', 'colored'],
-      level: 50,
-    },
-    {
-      devicon: ['devicon-docker-plain-wordmark', 'colored'],
-      level: 45,
-    },
-    {
-      devicon: ['devicon-ssh-plain-wordmark', 'colored'],
-      level: 90,
-    },
-    {
-      devicon: ['devicon-gitlab-plain-wordmark', 'colored'],
-      level: 85,
-    },
-    {
-      devicon: ['devicon-webpack-plain-wordmark', 'colored'],
-      level: 75,
     },
   ];
 
