@@ -85,6 +85,18 @@ $(function(){
       devicon: ['devicon-docker-plain-wordmark', 'colored'],
       level: 45,
     },
+    {
+      devicon: ['devicon-ssh-plain-wordmark', 'colored'],
+      level: 90,
+    },
+    {
+      devicon: ['devicon-gitlab-plain-wordmark', 'colored'],
+      level: 85,
+    },
+    {
+      devicon: ['devicon-webpack-plain-wordmark', 'colored'],
+      level: 75,
+    },
   ];
 
   $.each(skills, function(i, skill) {
