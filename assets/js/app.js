@@ -148,6 +148,7 @@ $(function(){
     }
 
     var diff = moment.preciseDiff(start, end);
+    diff = diff.replace(/\d* day.$/, "");
     $(this).html(diff);
   });
 
