@@ -148,7 +148,10 @@ $(function(){
     }
 
     var diff = moment.preciseDiff(start, end);
-    diff = diff.replace(/\d* day.$/, "");
+    var gap = end.diff(start, 'months');
+    if(gap >= 1) {
+      diff = diff.replace(/\d* day(.|$)/, "");
+    }
     $(this).html(diff);
   });
 
