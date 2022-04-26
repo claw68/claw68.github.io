@@ -172,7 +172,7 @@ h5 span.moment::before {
   box-shadow: inset 0 1.5px 3px 0 rgba(0, 0, 0, .15), 0 1.5px 3px 0 rgba(0, 0, 0, .15);
   width: 80%;
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 180px;
 }
 
 .content img.img-responsive {
@@ -191,6 +191,7 @@ h5 span.moment::before {
 
 .sidebar h1 {
   color: #bcd8c1;
+  font-size: 33px;
 }
 
 .sidebar h2, .sidebar p {
@@ -198,7 +199,8 @@ h5 span.moment::before {
 }
 
 .sidebar h2.title {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  font-size: 22px;
 }
 
 .sidebar .contact {
@@ -221,10 +223,6 @@ h5 span.moment::before {
 .sidebar .contact p.mobile a {
   color: #bcd8c1;
   text-decoration: none;
-}
-
-.sidebar .dev {
-  margin-top: 5px;
 }
 
 .sidebar .dev a {
